@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Vibes Playlist</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="page4.css" />
+</head>
+
+<body>
+  <div class="bg-blur"></div>
+
+  <main class="wrap">
+    <section class="playlist-page">
+
+      <div class="playlist-title">
+        <h2>Birthday Vibes Playlist <span class="note">🎵</span></h2>
+        <p>Songs to celebrate your special day</p>
+      </div>
+
+      <div class="mini-player">
+        <div class="mini-cover-emoji" aria-label="music">🎶</div>
+
+        <div class="mini-meta">
+          <div class="song-name" id="songName">Dil Ka Jo Haal Hai</div>
+          <div class="song-sub" id="songSub">Here's to making this year unforgettable...</div>
+
+          <div class="progress-row">
+            <span id="currentTime">0:00</span>
+            <input type="range" id="seekBar" value="0" min="0" max="100" />
+            <span id="duration">0:00</span>
+          </div>
+        </div>
+
+        <button class="play-btn" id="playBtn" aria-label="Play/Pause">❚❚</button>
+      </div>
+
+      <div class="carousel">
+        <button class="nav left" id="prevBtn">‹</button>
+
+        <div class="card" id="card">
+          <div class="big-cover-emoji" aria-label="birthday">🎂</div>
+          <h3 id="bigTitle">Dil Ka Jo Haal Hai</h3>
+          <p id="bigDesc">Here's to making this year unforgettable 🌟</p>
+        </div>
+
+        <button class="nav right" id="nextBtn">›</button>
+      </div>
+
+      <button class="btn continue" id="continueBtn">
+        Continue to Birthday Surprises ✨
+      </button>
+
+      <audio id="audio" src="birthday-song.mp3" preload="auto"></audio>
+
+    </section>
+  </main>
+
+  <script src="page4.js"></script>
+</body>
+</html>

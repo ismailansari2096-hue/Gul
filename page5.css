@@ -1,0 +1,73 @@
+.final-page{padding-top:10px;}
+.final-title{text-align:center;margin-bottom:14px;}
+.final-title h2{color:#e14c8c;font-size:26px;font-weight:900;}
+.final-title p{margin-top:6px;color:#7a4a55;font-weight:700;opacity:.9;}
+
+.final-card{
+  position:relative;background: rgba(255,255,255,0.75);
+  border: 2px solid rgba(255,182,193,0.35);
+  border-radius:22px;box-shadow: 0 20px 50px rgba(0,0,0,0.22);
+  padding:18px 16px 18px;overflow:hidden;
+}
+
+.final-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;}
+.final-badge{
+  display:flex;align-items:center;gap:10px;
+  background: rgba(255,240,248,0.9);
+  border: 1px solid rgba(225,76,140,0.18);
+  padding:10px 12px;border-radius:999px;
+  font-weight:900;color:#7a4a55;flex:1;
+}
+.final-badge .icon{font-size:18px;}
+
+.emoji-kitty{
+  width:76px;height:76px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:44px;
+  filter: drop-shadow(0 10px 14px rgba(0,0,0,.18));
+}
+
+.final-body{
+  margin-top:16px;background: rgba(255,255,255,0.85);
+  border-radius:18px;padding:22px 18px;
+  border: 1px solid rgba(255,182,193,0.25);
+  min-height:300px;
+}
+
+.hand{font-family:"Comic Sans MS","Segoe Script",cursive;font-size:18px;line-height:1.7;text-align:left;}
+.hand.pink{color:#e14c8c;font-weight:900;margin-bottom:18px;}
+.hand.black{color:#2c2c2c;font-weight:800;margin-bottom:20px;}
+.hand.blue{color:#5a87a8;font-weight:900;}
+
+.divider{height:1px;background: rgba(0,0,0,0.08);margin: 14px 4px;}
+.note{text-align:center;font-weight:800;color:#7a4a55;opacity:.9;margin-bottom:14px;}
+
+.btn-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+.seal-btn{
+  padding:16px 20px;border:none;border-radius:999px;cursor:pointer;
+  font-weight:900;font-size:16px;color:white;
+  background: linear-gradient(135deg, #ff89b6, #d65a87);
+  box-shadow: 0 18px 40px rgba(225,76,140,0.25);
+  min-width:170px;
+}
+.again-btn{
+  padding:16px 20px;border:none;border-radius:999px;cursor:pointer;
+  font-weight:900;font-size:16px;color:#114d2f;
+  background: linear-gradient(135deg, #a8f5cd, #74d8a6);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+  min-width:170px;
+}
+
+.sealed{
+  position:absolute;inset:0;display:none;align-items:center;justify-content:center;
+  background: rgba(0,0,0,0.35);z-index:30;
+}
+.seal-box{
+  width:85%;max-width:320px;background: rgba(255,255,255,0.9);
+  border-radius:20px;padding:18px 16px;text-align:center;
+  border: 2px solid rgba(255,182,193,0.35);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.25);
+}
+.seal-box h3{color:#e14c8c;font-size:20px;font-weight:900;}
+.seal-box p{color:#7a4a55;font-weight:800;margin-top:6px;margin-bottom:12px;}
+.ok-btn{width:auto;padding:12px 18px;font-size:16px;}

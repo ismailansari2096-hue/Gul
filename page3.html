@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balloon Surprise</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="page3.css" />
+</head>
+<body>
+
+  <div class="bg-blur"></div>
+
+  <main class="wrap">
+    <section class="balloon-page">
+
+      <div class="balloon-title">
+        <h2>Birthday Balloon Surprise 🎈✨</h2>
+        <p>Pop all 6 balloons to unlock your next surprise!</p>
+      </div>
+
+      <div class="balloon-card">
+        <div class="counter">
+          Popped: <span id="poppedCount">0</span>/6
+        </div>
+
+        <div class="balloon-grid" id="balloonGrid">
+          <button class="balloon b1" data-msg="Stay blessed ✨">🎈</button>
+          <button class="balloon b2" data-msg="Smile more 😊">🎈</button>
+          <button class="balloon b3" data-msg="You are precious 💖">🎈</button>
+          <button class="balloon b4" data-msg="Best day ever 🌸">🎈</button>
+          <button class="balloon b5" data-msg="Gul🌹 forever vibes 😍">🎈</button>
+          <button class="balloon b6" data-msg="Make a wish ✨🎁">🎈</button>
+        </div>
+
+        <div class="mini-msg" id="miniMsg">Tap balloons to pop them 🎉</div>
+
+        <button class="btn next-btn" id="nextBtn" disabled>Next ➜</button>
+        <button class="btn small back-btn" id="backBtn">⬅ Back</button>
+
+        <!-- Popup after all popped -->
+        <div class="popup" id="popup">
+          <div class="popup-box">
+            <h3>🎈 Surprise for you!</h3>
+            <p>
+              A little surprise for you, <b>Gul🌹</b><br/>
+              <b>Stay blessed ✨</b><br/>
+              <b>Always keep smiling 😊</b><br/>
+              You deserve all the happiness 💖
+            </p>
+            <button class="btn ok-btn" id="okBtn">Next ➜</button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <script src="page3.js"></script>
+</body>
+</html>
